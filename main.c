@@ -19,6 +19,7 @@ int main(){
     for (int i = 0; i < tamanho; i++) {
         printf("%d ", vetor[i]);
     }
+    printf("\n");
     
     free(vetor);
     vetor = NULL;
