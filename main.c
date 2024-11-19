@@ -13,13 +13,13 @@ int main(){
         return 0;
     }
     for (int i = 0; i < tamanho; i++) {
-        printf("Elemento %d: ", i + 1);
         scanf("%d", &vetor[i]);
     }
+    printf("[");
     for (int i = 0; i < tamanho; i++) {
-        printf("%d ", vetor[i]);
+        printf("%d", vetor[i]);
     }
-    printf("\n");
+    printf("]");
     
     free(vetor);
     vetor = NULL;
