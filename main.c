@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main(){
     int tamanho;
     int *vetor;
 
@@ -22,6 +22,5 @@ int main() {
     
     free(vetor);
     vetor = NULL;
-
     return 0;
 }
